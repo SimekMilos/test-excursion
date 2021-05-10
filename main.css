@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+/* General */
+
+:root {
+    background-color: black;
+    font-family: "Verdana";
+}
+
+* {
+    margin: auto;
+    text-align: center;
+}
+
+
+/* Headers */
+
+h1, h2 {
+    color: white;
+    font-weight: normal;
+    padding-bottom: .6em
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: normal;
+    padding-top: .8em;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: 300;
+}
+
+
+/* Links */
+
+a {
+    font-size: 16px;
+    display: block;
+    color: aquamarine;
+    padding-bottom: .8em;
+}
+
+
+/* Graphics */
+
+img {
+    display: block;
+    padding-bottom: 2em;
+}
+
+video {
+    padding-bottom: 2.5em;
+}
+
+
+/* Text */
+
+p {
+    font-size: 21px;
+    color: gray;
+    padding-bottom: 1em;
+}
+
+/* Footer */
+
+footer > p {
+    text-align: right;
+    padding-right: 20px;
+}
